@@ -1,0 +1,30 @@
+#intro {
+    background-color: #502090;
+    background-image: url("C:/Users/Geoff/Documents/My Web Sites/DaveSite/Images/fortnite_background.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; 
+    text-align: center;
+}
+
+#titleRow {
+    padding-top: 100px;
+    color: white;
+    font-family: 'Notable', sans-serif;
+}
+
+#navRow {
+    border: 2px solid black;
+}
+
+#mainNav {
+    border: 2px solid yellow;
+}
+
+#about {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
