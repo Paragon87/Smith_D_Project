@@ -1,25 +1,30 @@
 #intro {
     background-color: #502090;
-    background-image: url("C:/Users/Geoff/Documents/My Web Sites/DaveSite/Images/fortnite_background.jpg");
+    background-image: url("C:/Users/Geoff/Documents/My Web Sites/Smith_D_Project/Images/fortnite_background.jpg");
     background-size: 100vw;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh; 
+    height: 80vh; 
     text-align: center;
+    padding-top: 80px;
 }
 
-#titleRow {
-    padding-top: 100px;
+#title {
     color: white;
     font-family: 'Notable', sans-serif;
+    background-color: rgba(268,268,268,0.2);
 }
 
 #navRow {
-    border: 2px solid black;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(268,268,268,0.2);
 }
 
-#mainNav {
-    border: 2px solid yellow;
+#collapsibleNavbar a {
+    font-family: Notable;
+    color: silver;
 }
 
 #about {
