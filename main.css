@@ -1,3 +1,7 @@
+body {
+    padding: 0px;
+}
+
 #intro {
     background-color: #502090;
     background-image: url("C:/Users/Geoff/Documents/My Web Sites/Smith_D_Project/Images/fortnite_background.jpg");
@@ -9,7 +13,7 @@
     padding-top: 80px;
 }
 
-#title {
+#introTitle {
     color: white;
     font-family: 'Notable', sans-serif;
     background-color: rgba(268,268,268,0.2);
@@ -24,7 +28,7 @@
 
 #collapsibleNavbar a {
     font-family: Notable;
-    color: silver;
+    color: whitesmoke;
 }
 
 #about {
@@ -32,4 +36,24 @@
     color: white;
     height: 100vh;
     text-align: center;
+    padding: 0px 55px;
+}
+
+#aboutTitle {
+    margin-top: 8vh;
+    font-family: Notable;
+}
+
+#bioRow {
+    margin-top: 2vh;
+    font-family: Notable;
+    color: #502090;
+    font-size: 16pt
+}
+
+.pic {
+    height: 400px;
+    width: auto;
+    background-color: whitesmoke;
+    border: 5px solid #502090;
 }
