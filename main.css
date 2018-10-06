@@ -8,7 +8,7 @@ body {
     background-size: 100vw;
     background-repeat: no-repeat;
     background-position: center;
-    height: 80vh; 
+    height: 100vh; 
     text-align: center;
     padding-top: 80px;
 }
@@ -34,26 +34,28 @@ body {
 #about {
     background-color: black;
     color: white;
-    height: 100vh;
+    height: auto;
     text-align: center;
-    padding: 0px 55px;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-bottom: 55px; 
 }
 
 #aboutTitle {
     margin-top: 8vh;
+    margin-bottom: 8vh;
     font-family: Notable;
 }
 
 #bioRow {
     margin-top: 2vh;
+    margin-bottom: 2vh;
     font-family: Notable;
     color: #502090;
     font-size: 16pt
 }
 
 .pic {
-    height: 400px;
-    width: auto;
-    background-color: whitesmoke;
+    background-color: black;
     border: 5px solid #502090;
 }
