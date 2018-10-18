@@ -25,8 +25,8 @@
     ?>
     
     <!-- Start Contact Section -->
-    <div class="container-fluid" id="contact">
-        
-    </div>
+    <?php
+        include "contact.html"
+    ?>
 </body>
 </html>
