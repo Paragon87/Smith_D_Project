@@ -6,7 +6,7 @@
     <title>Dave's Fortnite Fucker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/Assets/CSS/main.css" />
     <link rel="stylesheet"  type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Notable">
 
@@ -16,17 +16,17 @@
 <body>
     <!-- Start Intro Section -->
     <?php
-        include "intro.html"
+        include "Assets/HTML/intro.html"
     ?>
     
     <!-- Start About Section -->
     <?php
-        include "about.html"
+        include "Assets/HTML/about.html"
     ?>
     
     <!-- Start Contact Section -->
     <?php
-        include "contact.html"
+        include "Assets/HTML/contact.html"
     ?>
 </body>
 </html>
