@@ -5,17 +5,46 @@
 </head>
 <body>
     <!-- Start Contact Section -->
-    <div class="container-fluid">
-        <form class="form-inline" action="/action_page.php">
-            <label for="custName" class="mr-sm-4">Your Name:</label>
-            <input type="text" class="form-control mb-2 mr-sm-4" id="custName">
-            <label for="custEmail" class="mr-sm-4">Your Email Address:</label>
-            <input type="email" class="form-control mb-2 mr-sm-4" id="custEmail">
-            <label for="custReqDate" class="mr-sm-4">Your Preferred Tutor Date:</label>
-            <input type="date" class="form-control mb-2 mr-sm-4" id="custReqDate">
-            <label for="custReqTime" class="mr-sm-4">Your Preferred Tutor Time:</label>
-            <input type="time" class="form-control mb-2 mr-sm-4" id="custReqTime">
-            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    <div class="container-fluid" id="contact">
+        <div class="row">
+            <div class="col-12 mx-auto" id="contactTitle">
+                <h2>Request A Session</h2>
+            </div>
+        </div>
+
+        <!-- Start Contact Form -->
+        <form class="form" id="contactForm" action="/action_page.php">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm">
+                    <label for="custName" class="">Your Name:</label>
+                    <input type="text" class="form-control mb-2" id="custName">
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm">
+                    <label for="custEmail" class="">Your Email Address:</label>
+                    <input type="email" class="form-control mb-2" id="custEmail">
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm">
+                    <label for="custReqDate" class="">Your Preferred Tutor Date:</label>
+                    <input type="date" class="form-control mb-2" id="custReqDate">
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm">
+                    <label for="custReqTime" class="">Your Preferred Tutor Time:</label>
+                    <input type="time" class="form-control mb-2" id="custReqTime">
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
         </form>
     </div>
 </body>
